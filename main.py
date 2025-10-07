@@ -7,10 +7,7 @@ import sys
 #-- static variables --
 #path_to_file = "./books/frankenstein.txt"
 
-if len(sys.argv) < 2:
-    print(sys.argv, " Usage: python3 main.py <path_to_book>")
-    sys.exit(1)
-elif len(sys.argv) > 2:
+if len(sys.argv) < 2 or len(sys.argv) > 2:
     print(sys.argv, " Usage: python3 main.py <path_to_book>")
     sys.exit(1)
 else:
